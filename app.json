@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "JungNub Macro",
+    "slug": "jungnub-macro",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [["expo-image-picker", { "photosPermission": "อนุญาตให้ JungNub Macro เข้าถึงรูปอาหารเพื่อเลือกและวิเคราะห์", "cameraPermission": "อนุญาตให้ JungNub Macro ใช้กล้องเพื่อถ่ายรูปอาหาร" }]],
+    "android": { "package": "com.jungnubmacro.prototype" },
+    "ios": { "bundleIdentifier": "com.jungnubmacro.prototype" }
+  }
+}
