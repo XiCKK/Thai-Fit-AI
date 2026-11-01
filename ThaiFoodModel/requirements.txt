@@ -1,0 +1,8 @@
+# Install torch + torchvision together using https://pytorch.org/get-started/locally/
+# first if you need a CUDA build. Python 3.11 or 3.12 is recommended.
+# PyTorch: tensor calculations, GPU support, gradients, and training optimizers.
+torch>=2.6,<3
+# torchvision: EfficientNet-B0 architecture, pretrained weights, image transforms.
+torchvision>=0.21,<1
+# Pillow: open image files, handle phone-photo orientation, and convert to RGB.
+Pillow>=10.4,<13

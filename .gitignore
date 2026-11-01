@@ -1,0 +1,40 @@
+# Python environments and generated caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Local datasets and generated model artifacts (not source or class labels)
+/ThaiFoodModel/train/
+/ThaiFoodModel/val/
+/ThaiFoodModel/test/
+/ThaiFoodModel/dataset/
+/ThaiFoodModel/artifacts/
+
+# JavaScript dependencies and Expo-generated output
+node_modules/
+.expo/
+/Mobile/dist/
+/Mobile/web-build/
+*.tsbuildinfo
+coverage/
+
+# Local secrets; keep shareable configuration templates
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Logs and operating-system files
+# Preserved history from the former nested Mobile repository
+/.local-git-backups/
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
