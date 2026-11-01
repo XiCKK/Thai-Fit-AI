@@ -125,4 +125,3 @@ These checks verify the integration, rather than real-world recognition accuracy
 ## Dataset acknowledgment
 
 This project uses a subset of **THFOOD-100** for Thai food recognition. Dataset attribution and its non-commercial research and educational usage terms are documented in the [model README](ThaiFoodModel/README.md#thfood-100-thai-food-image-dataset).
-
